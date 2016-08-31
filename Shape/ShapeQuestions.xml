@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Survey>
+<Questions count='3'>
+		<Question id='1' text="I am able to remain optimistic even when progress is not visible." />
+        <Question id='2' text="I prefer working in the background, if I can be a help to others." />
+        <Question id='3' text="I am able to welcome unexpected guests into my home." />
+<!-- For testing it is ok to comment out almost all the questions, just be sure to update the count setting 
+        <Question id='4' text="People say I have a way of making the Bible come alive." />
+        <Question id='5' text="When someone is hurting I am able to say or do something that renews his or her hope and trust in God." />
+        <Question id='6' text="I am moved to help others struggling with emotional pain." />
+        <Question id='7' text="I like to give sacrificially and freely to those who are in need." />
+        <Question id='8' text="I am able to motivate groups to achieve specific, Biblical objectives." />
+        <Question id='9' text="I seem to be able to recognize and address the root problems keeping someone from growing spiritually." />
+        <Question id='10' text="I enjoy organizing ideas, tasks, and people for Christian service." />
+		<Question id='11' text="I love to pray for others and even lose track of time while praying." />
+        <Question id='12' text="Even when human circumstances don't add up. I will step out in faith if I feel it is God's will for me." />
+        <Question id='13' text="I will gladly respond with practical assistance when others ask for help." />
+        <Question id='14' text="I have a knack for helping people I don't know feel welcome at church or in my home." />
+        <Question id='15' text="I earnestly desire to explain Biblical principles and truths to others." />
+        <Question id='16' text="I take the time to say a kind word to those who are using their gifts in service to others." />
+        <Question id='17' text="People often turn to me when they are feeling hurt, lonely, or confused." />
+        <Question id='18' text="In an appeal for a worthy cause, I am among the first to give financially." />
+        <Question id='19' text="I am able to recognize the spiritual gifts of others and help them find a means to serve in ministry to others." />
+        <Question id='20' text="I am willing to help an individual find Biblical resources and then guide them as they grow in faith and Christian maturity." />
+        <Question id='21' text="I can recognize and work to resolve key issues confronting a team." />
+        <Question id='22' text="Most of my prayer time is spent addressing the needs of others." />
+        <Question id='23' text="I take God's promises at face value and I am comforted by their truth." />
+        <Question id='24' text="When I see a need, I spring into action and do something about it." />
+        <Question id='25' text="I enjoy blessing people by having them over to my home for a meal." />
+        <Question id='26' text="I enjoy studying my Bible and the opportunity to clarify Biblical truths to others." />
+        <Question id='27' text="I feel comfortable using Scripture when people need courage and guidance." />
+        <Question id='28' text="I like to help people who suffer from physical, mental, or emotional problems." />
+        <Question id='29' text="I am committed to giving 10% or more of my income to the church." />
+        <Question id='30' text="I am energized when I am able to help people be in ministry to others." />
+        <Question id='31' text="I am able to be honest with others about the struggles I have had in my past and I am able to share how God helped me through." />
+        <Question id='32' text="I enjoy working out the details so that the work of God can be accomplished." />
+        <Question id='33' text="I take prayer requests very seriously and pray until the answer comes." />
+        <Question id='34' text="I believe that all things will work out to our benefit as long as we keep our trust in God." />
+        <Question id='35' text="I prefer to serve in some hands-on, practical, ministry." />
+        <Question id='36' text="I would welcome the opportunity to house someone in need, or a visiting missionary." />
+        <Question id='37' text="I have a solid understanding of the Bible, but I am also learning more each day as I study the scriptures and read Christian books." />
+        <Question id='38' text="I regularly write personal notes to praise someone for their help or service." />
+        <Question id='39' text="I often pick up on the emotional pain of others and come to their side." />
+        <Question id='40' text="I think I could do something to help those in financial distress." />
+        <Question id='41' text="God seems to use me to develop a spirit of unity and enthusiasm within a team." />
+        <Question id='42' text="I could help someone begin a personal relationship with God." />
+        <Question id='43' text="I don't get stressed trying to coordinate the necessary details to meet a deadline or orchestrate an event." />
+        <Question id='44' text="People in need seem to come to mind throughout the week and I pray for them trusting God to see them through." />
+        <Question id='45' text="I have learned not to worry, but to pray for all things and at all times." />
+        <Question id='46' text="I prefer to serve at someone's side, helping him or her with the small details and tasks that need to get accomplished." />
+        <Question id='47' text="I like to introduce myself and speak with people that I've never met." />
+        <Question id='48' text="Continuous learning is something I greatly value and invest in personally." />
+        <Question id='49' text="I feel compelled to strengthen other believers in the faith." />
+        <Question id='50' text="I think it is important to comfort those who are grieving." />
+        <Question id='51' text="I am willing to live more simply so that I can give more to God's work." />
+        <Question id='52' text="I am willing to bear the brunt of criticism for a team's failure." />
+        <Question id='53' text="At times, I know it is necessary to correct others. In those times, I am able to do so in love, so that God is honored and everyone involved is encouraged to press onward." />
+        <Question id='54' text="I am able to delegate and trust important tasks to the right people at the right time." />
+        <Question id='55' text="I believe that prayer is one of my most important daily activities." />
+        <Question id='56' text="I don't worry about tomorrow. I live in faith each day and trust God to guide me through each circumstance." />
+        <Question id='57' text="I prefer following someone else's lead rather than leading." />
+        <Question id='58' text="I enjoy reaching out to others and helping them feel at home where ever we are." />
+        <Question id='59' text="I like to share God's Word with others." />
+        <Question id='60' text="When people do good work, I am quick to praise and thank them." />
+        <Question id='61' text="I look for opportunities to bring hope and God's word to those who are sick or distraught." />
+        <Question id='62' text="I spend a lot of time earning money, but an equal amount of joy accompanies every dollar I give away." />
+        <Question id='63' text="I am able to recognize, redirect, and encourage a group that is being confronted by some obstacles and help them regain their focus." />
+        <Question id='64' text="I like to help people learn how to trust God in every aspect of life." />
+        <Question id='65' text="I am willing to cope with the difficulties that come with taking care of the details." />
+        <Question id='66' text="I have seen God heal someone in direct answer to my prayers." />-->
+	</Questions>
+	<Results>
+		<Result
+			text="Faith"
+			description="The gift to trust God for what can't be seen and, pressing forward, to act upon the promises of God."
+			verses="Romans 4:18-21; Hebrews 11"
+			components="1,12,23,34,45,56"
+		/>
+		<Result
+			text="Services/Helps"
+			description="The gift to identify and take the initiative to meet the practical needs of others, freeing them to fulfill their own calling or to attend to personal needs, or urgent matters."
+			verses="Acts 6:1-7"
+			components="2,13,24,35,46,57"
+		/>
+		<Result
+			text="Hospitality"
+			description="The gift of helping others feel welcome, accepted, relaxed, and comfortable."
+			verses="1 Peter 4:9-10"
+			components="3,14,25,36,47,58"
+		/>
+		<Result
+			text="Teaching"
+			description="The gift to proclaim and clearly explain God's Word in a manner that transforms the lives of others."
+			verses="1 Corinthians 12:28; Acts 20:20-21; Romans 12:6-8; Titus 3:1-2"
+			components="4,15,26,37,48,59"
+		/>
+		<Result
+			text="Encouragement"
+			description="The gift to provide encouragement, comfort, reassurance and support in ways that foster healing and wholeness."
+			verses="1 Thessalonians 5:11; Romans 12:8"
+			components="5,16,27,38,49,60"
+		/>
+		<Result
+			text="Mercy"
+			description="The gift to detect the emotional pains of others. To feel compassion, listen and provide loving-care."
+			verses="Luke 10:30-37; Romans 12:8; Matthew 20:29-34"
+			components="6,17,28,39,50,61"
+		/>
+		<Result
+			text="Giving"
+			description="The gift to cheerfully contribute material resources above and beyond a tithe to others and the church."
+			verses="2 Corinthians 8:1-7; Romans 12:8; Mark 12:41-44"
+			components="7,18,29,40,51,62"
+		/>
+		<Result
+			text="Leadership"
+			description="The gift to instill vision, to motivate and direct people to be faithful to their calling and responsibilities."
+			verses="Romans 12:8; Hebrews 13:7, 17; 1 Timothy 3"
+			components="8,19,30,41,52,63"
+		/>
+		<Result
+			text="Exhortation"
+			description="The gift to stimulate faith and promote Christian Maturity in others."
+			verses="Romans 12:8; Acts 11:23,24, 13:43, 14:22"
+			components="9,20,31,42,53,64"
+		/>
+		<Result
+			text="Administration"
+			description="The gift to design and effectively execute plans managing people, resources, and time in order to reach the long range goals and objectives of the ministry team or church."
+			verses="Titus 1:5; 1 Corinthians 12:28, 14:28-30"
+			components="10,21,32,43,54,65"
+		/>
+		<Result
+			text="Intercessory Prayer"
+			description="The gift to pray for extended periods of time on a regular basis and frequently see direct results to those prayers."
+			verses="James 5:14-16, 1 Timothy 2:1-2; John 17; Colossians 1:9-12, 4:12-13; Acts 12:12; Luke 22:41-44"
+			components="11,22,33,44,55,66"
+		/>
+	</Results>
+	<Answers>
+		<Answer text="Almost never true." value="0" />
+		<Answer text="Seldom true." value="1" />
+		<Answer text="Sometimes true." value="2" />
+		<Answer text="Often true." value="3" />
+		<Answer text="Almost always true." value="4" />
+	</Answers>	
+</Survey>
