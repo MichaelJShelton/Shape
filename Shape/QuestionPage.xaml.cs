@@ -11,9 +11,9 @@ namespace Shape
 
 		public QuestionPage(int id)
 		{
-			Q = SurveyPage.Questions[id];
+			Question Q = SurveyPage.Questions[id];
 
-			var Answers = new ListView
+			var Answers = new ListView(ListViewCachingStrategy.RecycleElement)
 			{
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
 				VerticalOptions = LayoutOptions.EndAndExpand,
@@ -37,8 +37,8 @@ namespace Shape
 			var questionLabel = new Label
 			{
 				HorizontalTextAlignment = TextAlignment.Start,
-				Text = Q.Text,
-				FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
+				Text = id > 0 ? id + ".  " + Q.Text : Q.Text,
+				FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
 				TextColor = Color.Black
 			};
 
@@ -75,36 +75,32 @@ namespace Shape
 				resetButton.IsEnabled = false;
 			};
 
-			Content = new ScrollView
+			var stack = new StackLayout
 			{
-				Content = new StackLayout
-				{
-					Padding = new Thickness(20, 20, 20, 20),
-					VerticalOptions = LayoutOptions.FillAndExpand,
-					Children =
+				Padding = new Thickness(20, 20, 20, 20),
+				VerticalOptions = LayoutOptions.FillAndExpand,
+				Children =
 					{
 						new Label {
 							Text = string.Empty,
-							HeightRequest = 30
+							HeightRequest = 40
 						},
 						questionLabel,
 						new Label {
 							Text = string.Empty,
-							HeightRequest = 30
+							HeightRequest = 40
 						},
 						Answers,
 						resetButton
 					}
-				}
+			};
+
+			Content = new ScrollView
+			{
+				Content = stack
 			};
 
 			InitializeComponent();
-		}
-
-		public Question Q
-		{
-			get;
-			private set;
 		}
 	}
 }

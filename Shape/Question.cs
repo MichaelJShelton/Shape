@@ -99,13 +99,13 @@ namespace Shape
 			int questionCount = int.Parse(xquestions.Attribute("count").Value);
 			Question[] questions = new Question[questionCount + 1];
 			var sb = new StringBuilder();
-			sb.AppendLine("Please select your answers on each page.");
-			sb.AppendLine("\nWhen you have completed all of the questions you will be able to see your results.");
+			sb.AppendLine("Instructions:\n\nPlease select your answers on each page.");
+			sb.AppendLine("\nWhen you have completed all of the questions you will be able to see your results.\n\nYou may swipe back and forth between questions.");
 			questions[0] = new Question()
 			{
 				Id = 0,
 				Text = sb.ToString(),
-				Answers = new List<Answer>() { new Answer() { Text = "Swipe left <-> right for the questions." } },
+				Answers = new List<Answer>(),
 				Answered = true
 			};
 

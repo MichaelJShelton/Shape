@@ -28,7 +28,7 @@ namespace Shape
 						Label failureMessage = new Label()
 						{
 							FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
-							Text = "\n\r\n\rNot all questions have been answered. Please go back and answer the remaining question(s).\n You have missed Question #: " + q.Id
+							Text = "\n\r\n\rNot all questions have been answered. Please go back and answer the remaining question(s).\n You have skipped Question #: " + q.Id
 						};
 						complete = false;
 
@@ -60,21 +60,21 @@ namespace Shape
 					{
 						ShapeResult sr = SurveyPage.Results[i];
 						resultsView.Children.Add(
-							new Label()
+							new Label
 							{
 								Text = sr.Title,
 								FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
 								FontAttributes = FontAttributes.Bold
 							});
 						resultsView.Children.Add(
-							new Label()
+							new Label
 							{
 								Text = sr.Description,
 								FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
 								TextColor = Color.FromHex("5593BD")
 							});
 						resultsView.Children.Add(
-							new Label()
+							new Label
 							{
 								Text = sr.Verses,
 								FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Label)),
@@ -105,7 +105,7 @@ namespace Shape
 				{
 					Children =
 					{
-						new Label()
+						new Label
 						{
 							Text = "\n\r\n\rWell Done!\n\r",
 							FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
@@ -119,7 +119,7 @@ namespace Shape
 
 		private string GenerateResultsString()
 		{
-			StringBuilder sb = new StringBuilder("Thank you for taking the Shape Survey.\n");
+			var sb = new StringBuilder("Thank you for taking the Shape Survey.\n");
 			sb.AppendLine("Here are your results.\n");
 			foreach (var result in SurveyPage.Results)
 			{
